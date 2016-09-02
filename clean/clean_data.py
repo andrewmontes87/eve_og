@@ -3,8 +3,8 @@ import json
 import LatLon
 import re
 
-revenue_df = pd.read_json('data/og_co_minibio.json')
-loc_df = pd.read_json('data/og_co_loc.json')
+revenue_df = pd.read_json('input/og_co_minibio.json')
+loc_df = pd.read_json('input/og_co_loc.json')
 
 # Clean revenues
 
@@ -46,5 +46,5 @@ target_df = pd.merge(revenue_df, loc_df, how='outer', on='name', suffixes=('', '
 
 target_df = target_df.drop('link_y',axis=1)
 
-target_df.to_json('../api/data/og_co_data.json', orient='records')
+target_df.to_json('../data/og_co_data.json', orient='records')
 
