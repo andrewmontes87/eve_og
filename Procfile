@@ -1,1 +1,1 @@
-web: gunicorn api/server_eve:app --log-file -
+web: gunicorn server:app --log-file -
