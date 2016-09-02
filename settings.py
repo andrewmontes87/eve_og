@@ -11,12 +11,6 @@ DOMAIN = {
     'og_co':{
         'item_title':'og_co_record',
         'schema':{
-            "_id": {
-                'type': 'dict',
-                'schema': {
-                    '$oid':{'type':'string'}
-                }
-            },
             'link':{'type':'string'},
             'country':{'type':'string'},
             'headquarters_location':{'type':'string'},
