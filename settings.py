@@ -5,7 +5,7 @@ X_DOMAINS = '*'
 HATEOAS = False
 PAGINATION = False
 
-MONGO_URI = os.environ.get('MONGODB_URI'+'/og_co', 'mongodb://localhost:27017/og_co')
+MONGO_URI = os.environ.get('MONGODB_URI', 'mongodb://localhost:27017/og_co')
 
 DOMAIN = { 
     'og_co':{
