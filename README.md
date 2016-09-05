@@ -1,14 +1,10 @@
 # flask_og
 
-Flask servers for oil/gas company visualizer
+Eve server for oil/gas company visualizer
 
 ## Run
 
-Start the web server
+
+Start the Eve server for DB access on localhost:5000
 
 `$ python server.py`
-
-
-Start the Eve server for DB access
-
-`$ python api/server_eve.py`
