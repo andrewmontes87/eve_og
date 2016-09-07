@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='eve_og',
-    version='1.0.1',
+    version='1.0.2',
     description='Eve server for oil gas visualizer',
     author='Andrew Montes',
     author_email='andrewmontes87@gmail.com',    
